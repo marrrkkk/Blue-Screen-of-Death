@@ -1,0 +1,58 @@
+body {
+    height: 100vh;
+    font-family: 'Segoe UI';
+    background-color: #0874d4;
+    color: white;
+    overflow: hidden;
+}
+
+.bsod {
+    display: block;
+}
+
+.sad {
+    margin-top: 170px;
+    margin-left: 200px;
+    margin-bottom: 0;
+    font-size: 180px;
+}
+
+.text1 {
+    margin-left: 200px;
+    font-size: 30px;
+}
+
+.bsod2 {
+    display: flex;
+    margin-left: 200px;
+}
+
+.qr {
+    width: 130px;
+    height: 130px;
+}
+
+.text2 {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 0%;
+}
+
+#click {
+    position: absolute;
+    top: 22%;
+    left: 22%;
+    color: white;
+    opacity: 1;
+    transition: opacity 2s ease-out;
+}
+
+.front {
+    font-family: monospace;
+    margin-left: -10px;
+    margin-top: -170px;
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    background-color: black;
+}
